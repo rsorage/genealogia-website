@@ -19,6 +19,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://genealogia.rsorage.com/suraci/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://genealogia.rsorage.com/suraci/"/>
   </url>
+  <url><loc>https://genealogia.rsorage.com/cardillo/</loc><lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://genealogia.rsorage.com/cardillo/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://genealogia.rsorage.com/cardillo/it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://genealogia.rsorage.com/cardillo/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://genealogia.rsorage.com/cardillo/"/>
+  </url>
+  <url><loc>https://genealogia.rsorage.com/cardillo/it/</loc><lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://genealogia.rsorage.com/cardillo/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://genealogia.rsorage.com/cardillo/it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://genealogia.rsorage.com/cardillo/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://genealogia.rsorage.com/cardillo/"/>
+  </url>
+  <url><loc>https://genealogia.rsorage.com/cardillo/en/</loc><lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://genealogia.rsorage.com/cardillo/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://genealogia.rsorage.com/cardillo/it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://genealogia.rsorage.com/cardillo/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://genealogia.rsorage.com/cardillo/"/>
+  </url>
   <url><loc>https://genealogia.rsorage.com/historia/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://genealogia.rsorage.com/metodo/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://genealogia.rsorage.com/catasto-1749.html</loc><lastmod>2026-10-14</lastmod></url>

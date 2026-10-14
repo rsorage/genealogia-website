@@ -15,11 +15,13 @@ caderno.
 | `index.html` | o portal: as duas linhas da família, a história, o método, as novidades e o contato |
 | `suraci/index.html` | a linha Suraci → Sorage (Laganadi → Carangola), com fontes e graus de certeza |
 | `suraci/it/index.html`, `suraci/en/index.html` | resumos da linha Suraci em italiano e em inglês |
+| `cardillo/index.html` | a linha Cardillo → Cardilo (Battaglia → Patrocínio do Muriaé), com os avós dos dois lados e a linha até Padula |
+| `cardillo/it/index.html`, `cardillo/en/index.html` | resumos da linha Cardillo em italiano e em inglês |
 | `historia/index.html` | a história da pesquisa desde 2005 e o caderno de entradas datadas (antes era a página inicial) |
 | `metodo/index.html` | como pesquisamos: graus de certeza, regras, fontes, imagens e privacidade |
 | `catasto-1749.html` | os três núcleos Cardillo no Catasto Onciario de Padula, 1749 |
 | `capa.jpg` | a imagem de compartilhamento da página da história (`og:image`, 1200×630) |
-| `assets/og/` | as imagens de compartilhamento do portal e da linha Suraci: cartões tipográficos, sem documento |
+| `assets/og/` | as imagens de compartilhamento do portal e das linhas Suraci e Cardillo: cartões tipográficos, sem documento |
 | `assets/catasto-1749/` | os recortes do Catasto usados em `catasto-1749.html` |
 | `robots.txt`, `sitemap.xml` | para os buscadores |
 | `404.html` | página de erro |

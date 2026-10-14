@@ -33,10 +33,10 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-of
 .wrap{max-width:1240px;margin:auto;padding:0 48px}
 .sans,.eyebrow,nav,.meta,.contents,.folio-label,.date,.fact-label,figcaption,summary,.status,.sources,footer{font-family:Arial,Helvetica,sans-serif}
 
-.masthead{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);min-height:98px;gap:24px}
+.masthead{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);min-height:98px;gap:24px;flex-wrap:wrap}
 .brand{font-size:14px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;font-weight:700}
 .brand span{display:block;color:var(--muted);font-size:12px;letter-spacing:.12em;font-weight:400;margin-top:2px}
-nav{display:flex;gap:25px;font-size:14px}
+nav{display:flex;gap:25px;font-size:14px;flex-wrap:wrap;justify-content:flex-end}
 nav a{text-decoration:none}
 
 .hero{padding:74px 0 58px;max-width:910px}
@@ -183,10 +183,13 @@ figure,.house,.fact,.context,.open-questions li{break-inside:avoid}
 <a class="skip" href="#conteudo">Ir para o conteúdo</a>
 <div class="wrap">
 <header class="masthead">
-<a class="brand sans" href="index.html">Cardillo &amp; Sorage<span>Memórias de uma pesquisa familiar</span></a>
+<a class="brand sans" href="/">Cardillo &amp; Sorage<span>Memórias de uma pesquisa familiar</span></a>
 <nav aria-label="Navegação principal">
-<a href="index.html">A história</a>
-<a href="index.html#continua">O caderno</a>
+<a href="/">Início</a>
+<a href="/suraci/">Suraci</a>
+<a href="/historia/">A história</a>
+<a href="/historia/#continua">O caderno</a>
+<a href="/metodo/">Método</a>
 </nav>
 </header>
 
@@ -547,7 +550,7 @@ nunca como prova de parentesco.</p>
 </ul>
 </section>
 
-<p class="backlink"><a href="index.html">← Voltar à história da família</a></p>
+<p class="backlink"><a href="/historia/#continua">← Voltar à história da família</a></p>
 </article>
 </div>
 </main>

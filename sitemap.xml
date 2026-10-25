@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://genealogia.rsorage.com/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://genealogia.rsorage.com/suraci/</loc><lastmod>2026-10-14</lastmod>
+  <url><loc>https://genealogia.rsorage.com/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/suraci/</loc><lastmod>2026-10-24</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://genealogia.rsorage.com/suraci/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://genealogia.rsorage.com/suraci/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://genealogia.rsorage.com/suraci/en/"/>
@@ -19,7 +19,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://genealogia.rsorage.com/suraci/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://genealogia.rsorage.com/suraci/"/>
   </url>
-  <url><loc>https://genealogia.rsorage.com/cardillo/</loc><lastmod>2026-10-14</lastmod>
+  <url><loc>https://genealogia.rsorage.com/cardillo/</loc><lastmod>2026-10-24</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://genealogia.rsorage.com/cardillo/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://genealogia.rsorage.com/cardillo/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://genealogia.rsorage.com/cardillo/en/"/>
@@ -37,7 +37,62 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://genealogia.rsorage.com/cardillo/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://genealogia.rsorage.com/cardillo/"/>
   </url>
-  <url><loc>https://genealogia.rsorage.com/historia/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://genealogia.rsorage.com/metodo/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://genealogia.rsorage.com/catasto-1749.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/historia/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/metodo/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/catasto-1749.html</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/</loc><lastmod>2026-10-25</lastmod></url>
+  <!-- Inicio das listagens geradas de Registros vistos -->
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/battesimi/1881/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/battesimi/1882/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/battesimi/1883/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/battesimi/1884/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/battesimi/1885/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/battesimi/1887/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/battesimi/1888/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/matrimoni-pubblicazioni/1909/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/matrimoni-pubblicazioni/1920/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/matrimoni/1852/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/matrimoni/1881/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/matrimoni/1886/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/morti/1882/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/morti/1883/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/morti/1884/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/morti/1885/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/morti/1887/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/morti/1903/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/morti/1910/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/morti/1923/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1810/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1813/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1822/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1853/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1879/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1882/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1883/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1884/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1885/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1886/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1887/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/laganadi/nati/1897/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/messina/elenco-degli-orfani-del-terremoto-supl-gu-15-02-1909-n-38/1909/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/messina/lista-di-leva/1879/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/messina/morti-allegati/1903/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/messina/morti-allegati/1907/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/messina/nati/1887/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/messina/nati/1893/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/pellaro/elenco-degli-orfani-del-terremoto-supl-gu-15-02-1909-n-38/1909/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/santo-stefano-in-aspromonte/elenco-dei-presunti-morti-gu-08-04-1909-n-83/1909/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/scilla/battesimi/1884/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/scilla/morti/1884/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/scilla/nati/1883/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/scilla/nati/1884/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/scilla/nati/1885/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/tropea/matrimoni/1879/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/tropea/morti/1886/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/tropea/nati/1882/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/tropea/nati/1886/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/tropea/nati/1891/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://genealogia.rsorage.com/registros-vistos/catalogo/tropea/pubblicazioni/1879/</loc><lastmod>2026-10-25</lastmod></url>
+  <!-- Fim das listagens geradas de Registros vistos -->
 </urlset>

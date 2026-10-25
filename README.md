@@ -154,6 +154,11 @@ quanto o índice oferecem links comuns para elas. Uma listagem não afirma que o
 ou ano inteiro tenha sido transcrito; o aviso de cobertura parcial e os graus de leitura
 aparecem também para quem chega diretamente pelo Google.
 
+Os selos seguem o padrão visual da página Método (`.tag.doc`, `.tag.prov`, `.tag.hip`):
+mesma tipografia, cores e bordas na busca e nas listagens. O texto continua identificando
+o grau de **leitura**, que não confirma identidade ou parentesco. O grau aparece uma só
+vez por ocorrência; ressalvas específicas da leitura ficam nos detalhes.
+
 Cada listagem tem título, descrição, endereço canônico próprio e dados estruturados de
 navegação (`BreadcrumbList`). O sitemap inclui apenas os endereços permanentes, sem
 combinações de filtros. As variações de busca conservam o canônico da página principal.

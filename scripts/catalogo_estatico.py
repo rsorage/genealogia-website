@@ -132,12 +132,13 @@ def person_html(row: dict) -> str:
     values = [("Papel no ato", row["papel"]), ("Pai", row["pai"]), ("Mãe", row["mae"]),
               ("Cônjuge", " ".join(v for v in (row["conjuge_nome"], row["conjuge_sobrenome"]) if v)),
               ("Data indicada", re.sub(r"^(\d{4})-(\d{2})-(\d{2})$", r"\3/\2/\1", row["data_evento"])),
-              ("Referência", reference(row)), ("Leitura", row["leitura"]),
+              ("Referência", reference(row)),
+              ("Ressalva de leitura", row["leitura"].partition(" (")[2].removesuffix(")")),
               ("Conferência", row.get("conferencia", "")), ("Portal de origem", row["portal"])]
     for label, value in values:
         if value:
             terms.append(f'<dt>{esc(label)}</dt><dd>{esc(value)}</dd>')
-    grade_class = "badge" if row["leitura"].startswith("certa") else "badge uncertain"
+    grade_class = "badge tag " + {"certa": "doc", "provável": "prov", "duvidosa": "hip"}[row["leitura"].split(" (")[0]]
     note = f'<p class="record-note">{esc(row["nota"])}</p>' if row["nota"] else ""
     links = [f'<a href="{esc(row["url"])}" target="_blank" rel="noopener noreferrer">Conferir no portal de origem ↗</a>']
     if row.get("url_alternativa"):

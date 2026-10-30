@@ -97,7 +97,7 @@ def frame(template: str, title: str, description: str, path: str, content: str) 
     return f'''<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} | Cardillo &amp; Sorage</title><meta name="description" content="{esc(description)}">
-<meta name="author" content="Ramon Sorage"><meta name="theme-color" content="#172d36">
+<meta name="author" content="Ramon Sorage"><meta name="theme-color" content="#f5f2eb">
 <link rel="canonical" href="{esc(url)}"><meta property="og:type" content="website"><meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Cardillo &amp; Sorage"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(url)}">
@@ -140,9 +140,9 @@ def person_html(row: dict) -> str:
             terms.append(f'<dt>{esc(label)}</dt><dd>{esc(value)}</dd>')
     grade_class = "badge tag " + {"certa": "doc", "provável": "prov", "duvidosa": "hip"}[row["leitura"].split(" (")[0]]
     note = f'<p class="record-note">{esc(row["nota"])}</p>' if row["nota"] else ""
-    links = [f'<a href="{esc(row["url"])}" target="_blank" rel="noopener noreferrer">Conferir no portal de origem ↗</a>']
+    links = [f'<a href="{esc(row["url"])}" target="_blank" rel="noopener noreferrer">Conferir no portal de origem&nbsp;↗</a>']
     if row.get("url_alternativa"):
-        links.append(f'<a href="{esc(row["url_alternativa"])}" target="_blank" rel="noopener noreferrer">Ver também no {esc(row["portal_alternativo"])} ↗</a>')
+        links.append(f'<a href="{esc(row["url_alternativa"])}" target="_blank" rel="noopener noreferrer">Ver também no {esc(row["portal_alternativo"])}&nbsp;↗</a>')
     links.append(f'<a href="{esc(row["url_catalogo"])}#{esc(row["id"])}">Link desta ocorrência</a>')
     return (f'<article class="static-person" id="{esc(row["id"])}"><h3>{esc(row["nome"])} {esc(row["sobrenome"])}</h3>'
             f'<p class="person-meta"><span>{esc(role_label(row))}</span><span class="{grade_class}">Leitura {esc(row["leitura"].split(" (")[0])}</span></p>'
@@ -185,12 +185,12 @@ def render_static(template: str, groups: list[dict]) -> dict[str, str]:
         body = (f'<nav class="breadcrumbs" aria-label="Caminho"><a href="/registros-vistos/">Registros vistos</a><span aria-hidden="true">/</span><a href="/{BASE}">Listagens</a><span aria-hidden="true">/</span><span aria-current="page">{esc(place)} · {esc(year)}</span></nav>'
                 f'<section class="hero static-hero"><p class="eyebrow">Registros vistos · transcrições parciais</p><h1>{esc(place)}<span class="series">{esc(series)} · {esc(year)}</span></h1>'
                 f'<p class="intro">{len(group["rows"])} {"ocorrência transcrita" if len(group["rows"]) == 1 else "ocorrências transcritas"} deste recorte, com os papéis de cada participante e as referências dos documentos.</p></section>'
-                '<aside class="notice"><strong>Uma pista para continuar sua pesquisa.</strong> Esta transcrição é parcial. Não encontrar um nome aqui não significa que esteja ausente dos documentos. Os graus de leitura não confirmam identidade ou parentesco. <a href="/registros-vistos/#sobre">Entenda os limites da lista ↗</a></aside>'
+                '<aside class="notice"><strong>Uma pista para continuar sua pesquisa.</strong> Esta transcrição é parcial. Não encontrar um nome aqui não significa que esteja ausente dos documentos. Os graus de leitura não confirmam identidade ou parentesco. <a href="/registros-vistos/#sobre">Entenda os limites da lista&nbsp;→</a></aside>'
                 f'<details class="static-toc"><summary>Ir para uma referência</summary><ul>{"".join(toc)}</ul></details>'
                 + "".join(sections) + '<aside class="static-notes"><p>As imagens permanecem nos portais de origem, que podem exigir cadastro ou restringir o acesso. Este catálogo é independente desses serviços.</p>'
                 '<p>Os nomes são preservados como transcritos, inclusive seus sinais de dúvida. As transcrições podem conter erros; confira a imagem original antes de usar uma informação. A presença de pessoas no mesmo documento não estabelece parentesco entre elas.</p>'
                 '<p>Viu um erro? Escreva para <a href="mailto:rsorage@gmail.com">rsorage@gmail.com</a>, indicando o link da ocorrência e a referência.</p>'
-                f'<p><a href="/{BASE}">Explorar outras localidades e anos →</a></p></aside>')
+                f'<p><a href="/{BASE}">Explorar outras localidades e anos&nbsp;→</a></p></aside>')
         result[group["path"] + "index.html"] = frame(template, title, description, group["path"], body)
     return result
 

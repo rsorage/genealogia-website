@@ -2,220 +2,492 @@
   "version": 1,
   "files": {
     "registros-vistos/catalogo/index.html": {
-      "sha256": "05dc8be4f971d29adacb221eab01e83cad88cc0d8de92ebba5a9fccc1b027164",
-      "lastmod": "2026-10-25"
+      "sha256": "4bdf39a7609966258e6107379f85b941c3e8b1e032e186f2e4790954324c4cbe",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/catanzaro/matrimoni/1898/index.html": {
+      "sha256": "7a90e0e3403fa6c4251c47315ce1bf1eba9eaeefeb00a7a56601a1b6b6d4d1c7",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/catanzaro/morti/1895/index.html": {
+      "sha256": "e1e65089951eb71cb28343c313bc35fa54993d17207a95ace1c7f961c1d6af35",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/catanzaro/nati/1895/index.html": {
+      "sha256": "79646c626d32e0dce41356be9c0c591af9aafb8a86812c9dc000d4745fa15a6d",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/catanzaro/nati/1896/index.html": {
+      "sha256": "4eebe4bdf433056b80b0d4b5aa44bb20ab819db5f91c138a25980831a82fa9c3",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/gioiosa-marea/matrimoni/1892/index.html": {
+      "sha256": "8d812230aa8233132a5a7d1b294fe9ecc8f9855d3fe8c8b4b40dbe45fdf4d1aa",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/gioiosa-marea/matrimoni/1893/index.html": {
+      "sha256": "4bb6ba3757b32cefedd0654eba243cfed1b74dc7d5e9a9216824dd13d6048e2d",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/gioiosa-marea/nati/1893/index.html": {
+      "sha256": "b3e1ad044b977b989b88c5a31518d25bc4af17ce306d40560637997bbd904f2a",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/battesimi/1879/index.html": {
+      "sha256": "16c59b1705b5d985a28ebee8d5134703f539b82effeb7b75fc9bfbd78cace9a8",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/battesimi/1881/index.html": {
-      "sha256": "daa71eac205660f948286ce27bfea36331e3f7ac7674800123d26ed75dc734d1",
-      "lastmod": "2026-10-25"
+      "sha256": "928d9066cd2e8cc3a487aef887a84d27c3ae13aca0d81df9a6d32e709399b0d4",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/battesimi/1882/index.html": {
-      "sha256": "b306228769d6c429e7100e97255463b0fdab6302afc80c116f97f9d0796f3590",
-      "lastmod": "2026-10-25"
+      "sha256": "9ad9f36a895f51ffac94b4481706a865956ed850ce63da76a06182e602c0351d",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/battesimi/1883/index.html": {
       "sha256": "145b7d5ec7bae56e972f2a5f54cf9dab79ee9ec190b825cef182ce63ad27b4e1",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/battesimi/1884/index.html": {
       "sha256": "842a32cab13269f5ffcae361ccc9396c5acdd8c5394b7fb6765312f99c564604",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/battesimi/1885/index.html": {
       "sha256": "e5eb83892d94abb69a184baa28e9551d91bf361830dce382a25acbd7a90b1f63",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/battesimi/1887/index.html": {
       "sha256": "759c3294e417fca6f1672da7947b5bb7e0850333ac4546626b17bee92541e0fd",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/battesimi/1888/index.html": {
       "sha256": "16b7be2443366d471294f01722a51f867095057410741c538170987b38578ca5",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/cittadinanze/1893/index.html": {
+      "sha256": "df125d4bd7b7be548bc7ac3447c57d1753e2ba6e4e385947a4153c5649ff61ba",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/cittadinanze/1898/index.html": {
+      "sha256": "ff44fd020042c1649bc8a4de14b21563e55b97d1d28e2fd923c9cb2876bd6ab8",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/defunti/1879/index.html": {
+      "sha256": "bc45240c604a90714f5bbba7a1a9306340c06f49c32c92a8d18f713ff0cfb3b3",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/defunti/1880/index.html": {
+      "sha256": "4226f3537c38953593c94199b51f717cee9121100f0f652a98669d4652649795",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/matrimoni/1852/index.html": {
       "sha256": "335e1900366797d8eefe5ba2fb14dfd65ae9588231db4b6c0124d722078eca3c",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1855/index.html": {
+      "sha256": "564583251477c4298de15d094c0b904888aa11560843764abf5e418ad52663f1",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1856/index.html": {
+      "sha256": "f82d721a009efc20094191eb28e92b40b8a6371024bb5a50743232ca93289c1a",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1857/index.html": {
+      "sha256": "6feaf27bff103c24cb3d2221760ca4a4c0649be3f4bbded11374e0098ad09094",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1858/index.html": {
+      "sha256": "8629c3bbc32ab387895b661ed613fe16662d54a09ca559ad577c669b761ef80a",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1878/index.html": {
+      "sha256": "b016c038d6ee5e3a2a20acfd041b51b6ce0b5efbea1638d139fb4e04671f6e7f",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1879/index.html": {
+      "sha256": "b6abb786998d0bc353078746e074fe8a43d67c5075363cdecdcdfadf53f799d9",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1880/index.html": {
+      "sha256": "3feb31952208c4ddd83e3df2077227afa7fb4d357d7b7136195a94df28fa78e4",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/matrimoni/1881/index.html": {
-      "sha256": "40303e3e86121518644dbf321cc7b67fdb7c3b9dacec67ea899ff70ea537f1f9",
-      "lastmod": "2026-10-25"
+      "sha256": "3d7c7b99ccea5ca6601f9cae1f67a5ecb0737e74ead00d262f29654980a14ad5",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1883/index.html": {
+      "sha256": "418ded1a62840b99c14d58b8bd1b9ea9f55e01122144d8f8b3e701ae2d7ce03c",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1884/index.html": {
+      "sha256": "fa63436c6ebba45c54fe1c5843010e8b183079cfd88ffe0df894cf2b0ef5db51",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1885/index.html": {
+      "sha256": "0d9d9e25718dfa40eab377eecbf62cbfd5ad5661da4133109644ffac23e7177e",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/matrimoni/1886/index.html": {
-      "sha256": "05c5717e5cfaac09ba3b826fea85c67c0136fcc57b45e1ba28e1a5c29738ab24",
-      "lastmod": "2026-10-25"
+      "sha256": "ad3c7aaba12e618dfc88fb98a413733b37d76a38d928d4ced24f483939f85808",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1887/index.html": {
+      "sha256": "d7a7b92929b7c6566ec4ffa9682487a99471d131f8faefcc368703f461c1b851",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1889/index.html": {
+      "sha256": "37267d7cb862d82e926e8422ff7a70b6accb24b75fd09b538524a81563c0b5fd",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1890/index.html": {
+      "sha256": "41c32fd6b436e1529d37ea7948097eb55f02bc731aaf23abb3bfcdad03dd1be2",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1891/index.html": {
+      "sha256": "0d31630582c58887d34038094bb98a9ac34acacb2489962020ea947e88f88b97",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1892/index.html": {
+      "sha256": "b5a78120f184b4d8fbb17d6874d090901663d130f8974f597c112fe09902d9c0",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1893/index.html": {
+      "sha256": "fc3ffe3fab12a523811812afad00104815aef71944eae213978e864ca0f96eaf",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1894/index.html": {
+      "sha256": "b4e2a541c4dad674340d536f4f95e1cc064665ce495413fee584ebcd72774302",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1895/index.html": {
+      "sha256": "30c0413cc2c10a447d6c07a4e3c555184a80fccd8b01d9bca6490aa44fd1e1f6",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1896/index.html": {
+      "sha256": "1ce23b1b3f2da3b7670b781385912341ea81dcdc1e715c622e77d57f836d4c90",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1897/index.html": {
+      "sha256": "7dacbca208c1d27c3bf83e523318f3ae00b4aa546b2f95af0d1da39394022a7b",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1898/index.html": {
+      "sha256": "0d6ffe25d847c606300087bcdf68af2f089422f5a785b298a6ed0beaa54eaac3",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1899/index.html": {
+      "sha256": "b81ae03a182a640db3cf0d6b9277cb748a04b58548aa48dd6a341ec1bcd0809c",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1900/index.html": {
+      "sha256": "97336c11a0516a7ea5ead70b9e904872d63bdecc48cc0fad46f3a556463104e0",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/matrimoni/1920/index.html": {
+      "sha256": "b44762411497b26ec7cc617debe006c2a1d061b5993a0eff6e5323f2d8e30592",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/matrimoni-pubblicazioni/1909/index.html": {
       "sha256": "544a92e194e8cf56c49feb7143ca821916fcb7992f45addead4e1ea93101e3d0",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/matrimoni-pubblicazioni/1920/index.html": {
       "sha256": "65f1386cab0f41a09c0931439b9e3fc9d48f75b2778a8dbb0c3a5b88623660aa",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/morti/1882/index.html": {
       "sha256": "3d6bdf277c92c8adbcef0debdb9dfcc6fb620332a93fa8dc7c05cc29f040e785",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/morti/1883/index.html": {
-      "sha256": "08ef9fcc77ff56b8d63b85d629a25b4387ab9524e6c05f604f5e8fd34c4c5215",
-      "lastmod": "2026-10-25"
+      "sha256": "cc423542ab285831b42412a0d80753362d284492126df7338115452342fcfa61",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/morti/1884/index.html": {
       "sha256": "934fb699b7ac2177d838a20401dea7e66f05713268d8fd6fb3e6f74f6fa42b9e",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/morti/1885/index.html": {
       "sha256": "3680e49ef6116ddf05fe3186d819a323fcdd94904341b904f7735688dbdb0edd",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/morti/1887/index.html": {
       "sha256": "94a29b94f5014d8754857f1c7a370765e0d7f9633200191f37aafe351afa4619",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/morti/1898/index.html": {
+      "sha256": "66efa3f60917411ce74e121eb2cb860de933738eee8d5d458407a4c55124e92f",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/morti/1901/index.html": {
+      "sha256": "bd0f62a098c167e64f0f99b819951a21571f925dac144411d237a227e245ba29",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/morti/1903/index.html": {
-      "sha256": "6c5b01addebd3726e71a99af7ab62574a1b523a705a69b94b63d29e34958b5f1",
-      "lastmod": "2026-10-25"
+      "sha256": "0e07a6332299b73de23973930c23d20875dc1ee8168b8944a5bc7f1ba8e64f2a",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/morti/1910/index.html": {
       "sha256": "ddcbfeb39c5130227793903a9357b1b7fa8865faf027d86d25853ae898c09659",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/morti/1923/index.html": {
       "sha256": "95bd337c44bfa79c2190ba9110cf853620708739e364df2ef8d9098878c53018",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/morti/1930/index.html": {
+      "sha256": "ad27e498b0504172af3dcae2e34815243800b8d23d5fe349a8c500a1c69acfb6",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/morti/1934/index.html": {
+      "sha256": "6d7022b2d131b81d6062ebe41a253d3734e726c475d5be811f17067ee3e07ce4",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/morti/1938/index.html": {
+      "sha256": "1d582b9a0eb40968dd433c03dd6b76b20a2a507502dcec9167f5667e2c9f8c98",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1810/index.html": {
       "sha256": "eda88592222a9ea261a406a44b509f931f5d8d1398e5dc5387a60399a0a6fc52",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1813/index.html": {
       "sha256": "cb6e691b002cedd1d709f61f1f512a80376a734d3cd817aeca44ae44d66bf9af",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1822/index.html": {
       "sha256": "09ba1ef5b18e18fb063ad88947ab887f545563581586e308701298ca369a5dfd",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1847/index.html": {
+      "sha256": "69c00772c4c9471d2be115f81d7200bfba39e3c4cb14ed2849b55491ee9d68cb",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1848/index.html": {
+      "sha256": "d43764765755dfbcc2c543864c5045b0fe25caac5079fbc45e1376007e59fe71",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1851/index.html": {
+      "sha256": "26ffe8efbb2ca025be8c3d7e68da6542b712d78fc1987639e20ef999954e4da0",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1852/index.html": {
+      "sha256": "e04a4eaa8ccea0a1b4a02bb2ed00099c1204de28c027f32570dc55d59854fc95",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1853/index.html": {
-      "sha256": "376f1f53854ef34a64c02d37acf059d154318afffe4ce1a9a3eb3a884e29858f",
-      "lastmod": "2026-10-25"
+      "sha256": "6abd5760ed0f7b9fad09ecb6ee51b47c00a01eaf203e82dfe3deced81fd0d827",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1854/index.html": {
+      "sha256": "6fc1bd5492481b607f4aa0a7b80e27299d8481f477988c8e24822b12617d137c",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1855/index.html": {
+      "sha256": "4f9a4a4a080c557768c77e12619270a939e8002790efe01ee0a547de716d5269",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1856/index.html": {
+      "sha256": "366fb60868c245be3355508635c98acb5fbf1f4922001b5d1054b2a9af99f41b",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1857/index.html": {
+      "sha256": "b25e2ece1abac0ff4e4673972d143c6ff570a4742d656600a3cc57ab47239121",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1858/index.html": {
+      "sha256": "2e3f131741d2f78f3e25fd1f3aab120f6f79af34e819b22a2c2269f677c34232",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1859/index.html": {
+      "sha256": "97802777617b1bd7783e48a305b8e5362b57bd3b45060c733a26bd91abcca283",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1860/index.html": {
+      "sha256": "e3ad4e62b2c67c66bb55fc605401b2c6a9a57f738501262b1fceecb0e79d23bc",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1861/index.html": {
+      "sha256": "9cc6f5d4ed9a90ca4c34e4628d81647e17e34b07851dd4ec1bd426bb88969c83",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1862/index.html": {
+      "sha256": "ebdee5546d67a0522a45be87977fc4cd09be8b5022b92eda271e8988b123a262",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1863/index.html": {
+      "sha256": "4e9c32a1311194c54e8a02fd1d06c70e95119ed1a44fc39a1d7a2c48b107d449",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1864/index.html": {
+      "sha256": "e2dd7a964e7b6cd9f018a156bf6a8e76201b8c5c461cac16ba5d385991b17751",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1865/index.html": {
+      "sha256": "f18254bb9824bd3142ce455ca1fb60ad89cbab4d0379f31e3e6926df89365173",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1866/index.html": {
+      "sha256": "5ab4d3dfe36f0ad6edc0531c623d1b348e5d82b61d4008c8868f30a6e6203f1a",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1867/index.html": {
+      "sha256": "344d71de2174760cf7a9d745e6f3ee7b5b27eeacd3a8f31c0a66a554ab83de1b",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1869/index.html": {
+      "sha256": "51b62db64f2e035a275807ca63d8f4d42055238536613435e0e173b14c86cd72",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1870/index.html": {
+      "sha256": "8382f615d04e284b5f8e97fc53c30fb1e8a27cc50a3bf1d6168309d5eb0b56c9",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1871/index.html": {
+      "sha256": "0b574dace54c80490c42e0fcccb918fb5d15ce54a4fe9ab9b6fff7c814ed86e9",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1872/index.html": {
+      "sha256": "2b09b951fabb638daf5dbab180e89e0336f02215d75d2d1cd21bae1c2156f2c4",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1873/index.html": {
+      "sha256": "beec3c2e1b4a51c4d1396f3f4ed9e0d9c396b75450bd82941a9c0f3d2af39c6a",
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1874/index.html": {
+      "sha256": "4c6e69b2e60f906acde1a254c0914c9c182e96135081ffd01cc2228b4d5ee910",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1879/index.html": {
       "sha256": "e57ddbeb7992b178aa101f3cca835801b1dc3670961723bb8e84e6cc9e765c15",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1881/index.html": {
+      "sha256": "d8add6a83f8ece1544687df3a55302558695f44342bdfbb84c8800a8f60b89c0",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1882/index.html": {
-      "sha256": "d63015452d978c31ac9e77ce0812b65b89213481001060618909904699a6b127",
-      "lastmod": "2026-10-25"
+      "sha256": "c464657a4ba8ff9128f396904a0d4c288f7833747b65d04151fce48658515d37",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1883/index.html": {
       "sha256": "a2f2c186076868bb66d979c8ce5884f82bcfc2a8e8447dddcfd7545662fa204b",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1884/index.html": {
       "sha256": "d1e020d1ed8ac4ec6ead839efdf73891008568d15c8deb94fafe3ef1c9fc73ec",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1885/index.html": {
       "sha256": "4345f92fb6327eb72662871bf0425124d88084d6e3c9d88246ea67bb8431319d",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1886/index.html": {
       "sha256": "a5c1089a3f899952d1646dee8765818a3fd1eaf4d86d2e514207377ea5d3da68",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1887/index.html": {
       "sha256": "ef20113528f9b6def16779c2382a516a6da13be526b1c35f68e7981f5efda137",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/laganadi/nati/1897/index.html": {
       "sha256": "bafb6305818f59846a9dca7b376c8b0d41f6b1dc176e2bce4f5e8a25433aef7d",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/laganadi/nati/1899/index.html": {
+      "sha256": "2c3e79083a1ef03aaaff8c504f5375d11771171555459fdb4b7497d8a58aa437",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/messina/elenco-degli-orfani-del-terremoto-supl-gu-15-02-1909-n-38/1909/index.html": {
       "sha256": "5dee94fac0e3dc8245a980c4684c21957ede6bc97b30eda8a307bb46280b3981",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/messina/lista-di-leva/1879/index.html": {
       "sha256": "6284081863d248ce3503b71c8ad1cf1304b38d88f86daf8682d65794a1d7fb75",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/messina/morti-allegati/1903/index.html": {
       "sha256": "e3b582f24d7f4af7924e425d6e84d34756d30366865a0b148465f683265c0e53",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/messina/morti-allegati/1907/index.html": {
       "sha256": "bb5c2a6ef0a643ca826f70a280376ddd2ac80202b3d0ac7c339103f5697dbd62",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/messina/nati/1887/index.html": {
       "sha256": "1e0d20a9fb7f8888481c166453d7281d9dc312b1d4466edc120b136206115e57",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/messina/nati/1893/index.html": {
       "sha256": "cccc83a3a788cabc24ff8f7c90231d225dbd6d0ba9e3daa0fdc08dfc653f88b2",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/pellaro/elenco-degli-orfani-del-terremoto-supl-gu-15-02-1909-n-38/1909/index.html": {
       "sha256": "ddc00e4b749dd5c88085373662a07c148ba130482256c809bc888e8f14c81e15",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/sant-eufemia-d-aspromonte/nati/1855/index.html": {
       "sha256": "ea0b2b91839f5aeb64f557f375e927ca4f9d45e233e944a3577a3ab406772f51",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/santo-stefano-in-aspromonte/elenco-dei-presunti-morti-gu-08-04-1909-n-83/1909/index.html": {
       "sha256": "7945dbc989e58d92c15c9109dd5eb1763e092d5c58628e7ad8b2a94a413a1224",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/scilla/battesimi/1884/index.html": {
       "sha256": "ad59b170c457108746c3df229934508e4b2da4e7c3ce9e50e9570da94d8ef4d9",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
+    },
+    "registros-vistos/catalogo/scilla/cittadinanze/1881/index.html": {
+      "sha256": "a06f19985a24271e6ca5ca2830c8a070eaa4600ea4f5def74068e0cb995e21c2",
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/scilla/morti/1884/index.html": {
       "sha256": "f7b0a51499c023a4ecdbffb9baeb223196f715f3f8e18a0fe7bcb5e1d4a38b7a",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/scilla/nati/1883/index.html": {
       "sha256": "51a49b3727e826a889ff904d129d9faf7b2e4c48f2f497543dd1c37e12a70875",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/scilla/nati/1884/index.html": {
       "sha256": "4a928420eb0e568a8764d239d383c00224ad609a669402137e98f31fe9fd0d15",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/scilla/nati/1885/index.html": {
       "sha256": "5750bdf0fcbcd5ac7b486e82488fa313fc5f2275a65afadb7f7c9f9aac156354",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/tropea/matrimoni/1879/index.html": {
       "sha256": "a8f19b96bdc8254abe7741b9f76785a4a9b1b68ce13f4b92e9e6694444a3cd5a",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/tropea/morti/1886/index.html": {
       "sha256": "3c0130ce26a09ea54fc524e11517cca65a012f6675450e86dfeb2cc4831332ea",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/tropea/nati/1882/index.html": {
       "sha256": "0a826265e88510b4041257b572aa972eddf4b44d028bf16d3cee9ab371684db1",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/tropea/nati/1886/index.html": {
       "sha256": "34c54a2f7fcfdb3aa8bab9edd2d58dc6eb460cb3a03486fe82d88d4e9dc3942f",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/tropea/nati/1891/index.html": {
       "sha256": "0a7a89b1e000c096b628555efc387eecbb86cea81d8bcb60c5c82f88cfdd53f5",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/catalogo/tropea/pubblicazioni/1879/index.html": {
       "sha256": "206ff6d0257b330762bde217a4ae73b779f30d318005928b476560be6422f411",
-      "lastmod": "2026-10-25"
+      "lastmod": "2026-10-30"
     },
     "registros-vistos/index.html": {
-      "sha256": "808d8cc3dfd00ad727d006e4c706b15b6e20e1d22bf54436b7211e3423a9fc95",
-      "lastmod": "2026-10-25"
+      "sha256": "0dec5e2776fc7c4ca9f956754a6607bfa99047d731b92f557dda2f4ac4d10ab9",
+      "lastmod": "2026-10-30"
     }
   }
 }

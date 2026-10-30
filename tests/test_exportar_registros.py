@@ -27,7 +27,7 @@ class PublicSelection(unittest.TestCase):
 
     def write(self):
         for name, rows, fields in [
-            ("linhas-transcritas.csv", self.names, exporter.NAME_FIELDS + ("url_imagem", "obs", "ficha") + OPTIONAL_FIELDS),
+            ("linhas-transcritas.csv", self.names, exporter.NAME_FIELDS + ("url_imagem", "obs", "ficha", "tipo_fonte", "idade") + OPTIONAL_FIELDS),
             ("mapa-imagens.csv", self.pages, exporter.PAGE_FIELDS + ("url", "conteudo", "obs")),
         ]:
             with (self.source / name).open("w", newline="") as stream:
@@ -52,6 +52,44 @@ class PublicSelection(unittest.TestCase):
         data, report = self.run_export()
         self.assertEqual(data["nomes"], [])
         self.assertIn("posterior ao corte", report["excluidas"][0]["motivo"])
+
+    def test_death_after_1925_needs_birth_by_1925(self):
+        self.names[0].update(serie="Morti", tipo_fonte="morte", ano="1930", data_evento="1930-07-28",
+                             idade="85", conjuge_nome="Cônjuge", conjuge_sobrenome="Fictício")
+        data, _ = self.run_export()
+        self.assertEqual(len(data["nomes"]), 1)
+        self.assertEqual(data["nomes"][0]["conjuge_nome"], "Cônjuge")
+        self.assertEqual(data["cortes"]["obitos"], 1955)
+
+    def test_death_after_1925_without_age_is_excluded(self):
+        self.names[0].update(serie="Morti", tipo_fonte="morte", ano="1930")
+        data, report = self.run_export()
+        self.assertEqual(data["nomes"], [])
+        self.assertIn("nascimento comprovado", report["excluidas"][0]["motivo"])
+
+    def test_death_of_person_born_after_1925_is_excluded(self):
+        self.names[0].update(serie="Morti", tipo_fonte="morte", ano="1950", idade="20")
+        data, report = self.run_export()
+        self.assertEqual(data["nomes"], [])
+
+    def test_explicit_birth_in_role_counts(self):
+        self.names[0].update(serie="Morti", tipo_fonte="trascrizione", ano="1938", data_evento="1935-09-07",
+                             papel="defunto (n. Laganadi 23/12/1856, segundo o ato)")
+        data, _ = self.run_export()
+        self.assertEqual(len(data["nomes"]), 1)
+
+    def test_spouse_hidden_when_deceased_born_after_1900(self):
+        self.names[0].update(serie="Morti", tipo_fonte="morte", ano="1940", idade="30",
+                             conjuge_nome="Cônjuge", conjuge_sobrenome="Fictício")
+        data, _ = self.run_export()
+        self.assertEqual(data["nomes"][0]["conjuge_nome"], "")
+        self.assertEqual(data["nomes"][0]["conjuge_sobrenome"], "")
+
+    def test_cutoffs_by_record_type(self):
+        for serie, tipo, year in (("Nati", "nascita", "1930"), ("Matrimoni", "matrimonio", "1930"), ("Morti", "morte", "1960")):
+            self.names[0].update(serie=serie, tipo_fonte=tipo, ano=year, idade="80")
+            data, _ = self.run_export()
+            self.assertEqual(data["nomes"], [], (serie, year))
 
     def test_missing_url_is_not_published(self):
         self.names[0]["url_imagem"] = ""

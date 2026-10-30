@@ -101,8 +101,13 @@ filiação do declarante, parentesco entre participantes ou sobrenomes de crian�
 
 A exportação:
 
-- seleciona apenas anos explícitos e intervalos inteiramente até 1925, com links HTTPS
-  para imagens nos portais oficiais aceitos (incluindo a Gazzetta Ufficiale);
+- seleciona apenas anos explícitos e intervalos dentro do corte do tipo de registro, com
+  links HTTPS para imagens nos portais oficiais aceitos (incluindo a Gazzetta Ufficiale).
+  Cortes (decisão de 26/10/2026): nascimentos e os demais registros até 1925 (cem anos);
+  óbitos até 1955 (setenta anos), só quando a própria linha comprova nascimento até 1925
+  («n. … AAAA» no papel ou ano menos idade); sem isso, a linha fica de fora. Em óbitos
+  posteriores a 1925 de pessoas nascidas depois de 1900, o cônjuge não é exportado.
+  Ninguém nascido depois de 1925 é publicado;
 - confere também as datas de eventos transcritos, conserva grafias e sinais de dúvida
   e distingue grau de leitura de cobertura da consulta;
 - exporta uma lista explícita de campos; não copia as colunas `obs`, `ficha`, `lido_por`,

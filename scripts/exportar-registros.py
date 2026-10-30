@@ -22,7 +22,13 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import catalogo_estatico
+# Cortes por tipo de registro (decisão de Ramon, 26/10/2026):
+# - nascimentos e os demais registros: 100 anos (até 1925);
+# - óbitos: 70 anos (até 1955), desde que a pessoa registrada comprovadamente
+#   tenha nascido até 1925; ninguém nascido depois de 1925 é publicado.
 CUTOFF = 1925
+DEATH_CUTOFF = 1955
+BORN_BY = 1925
 PORTALS = {
     "www.familysearch.org": ("FamilySearch", ("/ark:/61903/", "/search/film/")),
     "familysearch.org": ("FamilySearch", ("/ark:/61903/", "/search/film/")),
@@ -51,13 +57,36 @@ def sort_name(value: str) -> str:
     return "".join(c for c in value if c.isalnum() and not unicodedata.combining(c))
 
 
-def years(value: str) -> tuple[int, int] | None:
+def years(value: str, limit: int = CUTOFF) -> tuple[int, int] | None:
     """Só anos e intervalos explícitos. Não adivinhar «1908?» ou datas vazias."""
     m = re.fullmatch(r"(\d{4})(?:\s*[-–]\s*(\d{4}))?", text(value))
     if not m:
         return None
     start, end = int(m[1]), int(m[2] or m[1])
-    return (start, end) if 1000 <= start <= end <= CUTOFF else None
+    return (start, end) if 1000 <= start <= end <= limit else None
+
+
+def is_death_record(row: dict) -> bool:
+    """Óbitos têm corte próprio; a série ou o tipo de fonte precisam dizê-lo."""
+    serie = text(row.get("serie", "")).casefold()
+    kind = text(row.get("tipo_fonte", "")).casefold()
+    return serie.startswith(("morti", "óbito", "obito", "sepolt")) or kind.startswith(("morte", "óbito", "obito", "sepoltura"))
+
+
+def cutoff_for(row: dict) -> int:
+    return DEATH_CUTOFF if is_death_record(row) else CUTOFF
+
+
+def birth_year(row: dict) -> int | None:
+    """Ano de nascimento comprovado pela própria linha: «n. … AAAA» no papel ou ano menos idade."""
+    explicit = re.search(r"\bn\.\s[^;)]*?(?<!\d)(\d{4})(?!\d)", row.get("papel", ""))
+    if explicit:
+        return int(explicit[1])
+    age = text(row.get("idade", ""))
+    event = re.match(r"(\d{4})", text(row.get("data_evento", ""))) or re.match(r"(\d{4})", text(row.get("ano", "")))
+    if re.fullmatch(r"\d{1,3}", age) and event:
+        return int(event[1]) - int(age)
+    return None
 
 
 def public_url(value: str) -> tuple[str, str] | None:
@@ -147,7 +176,7 @@ def roles_for(value: str) -> list[str]:
         roles.append("Noiva")
     if role.startswith("cônjuge"):
         roles.append("Cônjuge")
-    if role.startswith(("nato", "nata", "batiz", "falec", "morto", "morta", "presunt", "inscrito", "órfão")):
+    if role.startswith(("nato", "nata", "batiz", "falec", "morto", "morta", "defunt", "presunt", "inscrito", "órfão")):
         roles.append("Pessoa registrada")
     return roles or ["Outra menção"]
 
@@ -196,12 +225,14 @@ def export(source: Path, annotations: dict, private_selection: dict | None = Non
     ):
         for number, row in enumerate(rows, 2):
             reason = None
-            interval = years(row.get("ano", ""))
+            limit = cutoff_for(row)
+            interval = years(row.get("ano", ""), limit)
             link = public_url(row.get(link_field, ""))
             if group == "nomes" and row.get("id") in private_selection.get("ocultar_ocorrencias", []):
                 reason = "entrada omitida pela seleção privada de publicação"
             elif not interval:
-                reason = "ano ausente, incerto ou fora do corte de 1925"
+                reason = ("ano ausente, incerto ou fora do corte de 1955 para óbitos" if limit == DEATH_CUTOFF
+                          else "ano ausente, incerto ou fora do corte de 1925")
             elif not link:
                 reason = "link ausente ou fora dos endereços de imagens oficiais aceitos"
             elif not text(row.get("serie", "")) or (group == "nomes" and not text(row.get("comune", ""))):
@@ -213,15 +244,20 @@ def export(source: Path, annotations: dict, private_selection: dict | None = Non
                     raise ValueError(f"Identificador repetido: {row['id']}.")
                 elif not re.match(r"^(certa|provável|duvidosa)(?:$| \()", row["leitura"]):
                     reason = "grau de leitura não reconhecido"
-                elif any(int(y) > CUTOFF for key in ("data_evento", "papel")
+                elif any(int(y) > limit for key in ("data_evento", "papel")
                          for y in re.findall(r"(?<!\d)(\d{4})(?!\d)", row.get(key, ""))):
                     reason = "evento ou papel menciona data posterior ao corte"
+                elif interval[1] > CUTOFF and (birth_year(row) is None or birth_year(row) > BORN_BY):
+                    reason = "óbito posterior a 1925 sem nascimento comprovado até 1925"
             elif text(row.get("cobertura", "")) not in COVERAGES:
                 reason = "cobertura de leitura não reconhecida"
             if reason:
                 excluded.append({"arquivo": group, "linha_csv": number, "motivo": reason})
                 continue
             item = safe_fields(row, fields)
+            if group == "nomes" and interval[1] > CUTOFF and (birth_year(row) or BORN_BY) > 1900:
+                # Cônjuge de quem nasceu depois de 1900 pode ter nascido depois de 1925.
+                item["conjuge_nome"] = item["conjuge_sobrenome"] = ""
             if not item["comune"]:
                 item["comune"] = "Localidade não indicada"
             item.update(url=link[0], portal=link[1], inicio=interval[0], fim=interval[1], tipo=category(item["serie"]))
@@ -282,7 +318,8 @@ def export(source: Path, annotations: dict, private_selection: dict | None = Non
             page["nomes_transcritos"] += 1
     ordered_names = sorted(output_names, key=lambda r: (sort_name(r["sobrenome"]), sort_name(r["nome"]), r["inicio"], r["id"]))
     ordered_pages = sorted(output_pages.values(), key=lambda r: (r["comune"].casefold(), r["tipo"], r["inicio"], r["volume_ou_waypoint"], int(r["imagem"]) if r["imagem"].isdigit() else 0, r["id"]))
-    data = {"versao": 1, "corte": CUTOFF, "ultima_consulta": max(dates, default=""), "nomes": ordered_names, "paginas": ordered_pages}
+    data = {"versao": 1, "corte": DEATH_CUTOFF,
+            "cortes": {"nascimentos_e_demais": CUTOFF, "obitos": DEATH_CUTOFF, "nascidos_ate": BORN_BY}, "ultima_consulta": max(dates, default=""), "nomes": ordered_names, "paginas": ordered_pages}
     report = {"entradas": {"nomes": len(names), "paginas": len(pages)},
               "exportadas": {"nomes": len(ordered_names), "paginas": len(ordered_pages)},
               "consultas_repetidas_agrupadas": len(pages) - sum(e["arquivo"] == "paginas" for e in excluded) - len(ordered_pages),
